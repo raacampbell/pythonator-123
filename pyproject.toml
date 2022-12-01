@@ -21,6 +21,17 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
 
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+     "setuptools_scm",
+     "black",
+     "flake8",
+     "pre-commit"
+]
+
+
 [tool.black]
 target-version = ['py38', 'py39', 'py310']
 skip-string-normalization = false
@@ -38,3 +49,5 @@ exclude = '''
   )/
 )
 '''
+
+
