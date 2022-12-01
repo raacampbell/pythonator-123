@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.9.0"
 dynamic = ["version"]
 license = {text = "BSD 3-Clause"} # Can also provide a link with file =  (the standard licences have abbreviations)
-dependencies = ["numpy","pandas"]
+dependencies = []
 
 # The only other mandatory thing is to explain how you will package/build it
 
