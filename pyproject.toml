@@ -20,3 +20,21 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
+
+[tool.black]
+target-version = ['py38', 'py39', 'py310']
+skip-string-normalization = false
+line-length = 85
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | _build
+    | build
+    | dist
+  )/
+)
+'''

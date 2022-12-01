@@ -1,7 +1,6 @@
 # Runs automatically when it's imported
 
-__author__ = 'Rob Campbell'
-
+__author__ = "Rob Campbell"
 
 
 """
@@ -13,7 +12,7 @@ don't want that
 # We can make imports easier here by doing, e.g.
 # from . import some_module
 #
-# So functions inside some_module can be imported as 
+# So functions inside some_module can be imported as
 # packagename.FUNCTION_IN_SOME_MODULE
 #
 # For example, see numpy's __init__.py
