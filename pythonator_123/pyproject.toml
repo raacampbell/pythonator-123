@@ -1,0 +1,9 @@
+[project]
+name = 'pythonator_123' #This defines what is installed
+authors = [{name = 'Rob Campbell', email = 'git@raacampbell.com'}] #Can use the noreply e-mail address if you don't want yours here
+description = "My test package for stuff with things"
+readme = "README.md"
+requires-python = ">=3.9.0"
+dynamic = ["version"]
+
+licence = {text = "BSD 3-Clause"} # Can also provide a link with file =  (the standard licences have abbreviations)
