@@ -15,7 +15,6 @@ requires = [
     "setuptools>=45",
     "wheel",
     "setuptools_scm[toml]>=6.2",
-    "pre-commit"
 ]
 
 build-backend = "setuptools.build_meta"
@@ -23,6 +22,8 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 
 
+# github actions will look in these. these are the tools that we need to work with
+# the software but not tools that are needed to run it. 
 [project.optional-dependencies]
 dev = [
     "pytest",
